@@ -15,8 +15,8 @@ class PromotionServiceTests {
             )
         )
         assertThat(messages, equalTo(listOf(
-            Message("Total before promotion: 12.0"),
-            Message("Total after promotion: 9.6")
+            UserMessage("Total before promotion: 12.0"),
+            UserMessage("Total after promotion: 9.6")
         )))
     }
 
@@ -29,8 +29,8 @@ class PromotionServiceTests {
             )
         )
         assertThat(messages, equalTo(listOf(
-            Message("Total before promotion: 252.0"),
-            Message("Total after promotion: 228.8")
+            UserMessage("Total before promotion: 252.0"),
+            UserMessage("Total after promotion: 228.8")
         )))
     }
 }
