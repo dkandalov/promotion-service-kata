@@ -8,8 +8,6 @@ class Item(
     var tax: Double
 )
 
-data class UserMessage(val value: String)
-
 class PromotionService {
 
     fun applyPromotionTo(item: Item): List<UserMessage> {
@@ -39,3 +37,5 @@ class PromotionService {
     // ... There is more code in this class.
 
 }
+
+data class UserMessage(val value: String)
