@@ -1,5 +1,3 @@
-@file:Suppress("MemberVisibilityCanBePrivate")
-
 package promotionservice
 
 import java.util.ArrayList
@@ -23,10 +21,21 @@ class PromotionService {
             item.tax /= 2
         }
 
+        persist(item)
+
         result += UserMessage("Total after promotion: ${item.price + item.price * item.tax}")
         return result
     }
 
-    // Can't be moved to another class, used by other code.
-    fun standardDiscount() = 2
+    // This method can't be moved to another class, used by other code in this class.
+    private fun standardDiscount(): Int {
+        return 2
+    }
+
+    private fun persist(item: Item) {
+        // Item is persisted to storage.
+    }
+
+    // ... There is more code in this class.
+
 }
