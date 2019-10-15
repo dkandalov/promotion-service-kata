@@ -6,7 +6,8 @@ import org.junit.Test
 
 class PromotionServiceTests {
 
-    @Test fun `Book promotion`() {
+    @Test
+    fun `Book promotion`() {
         val messages = PromotionService().applyPromotionTo(
             Item(
                 name = "Functional programming with C++",
@@ -20,10 +21,11 @@ class PromotionServiceTests {
         )))
     }
 
-    @Test fun `Massive Book promotion`() {
+    @Test
+    fun `Expensive book promotion`() {
         val messages = PromotionService().applyPromotionTo(
             Item(
-                name = "Functional programming with Groovy",
+                name = "Functional programming with all languages",
                 price = 210,
                 tax = 0.2
             )

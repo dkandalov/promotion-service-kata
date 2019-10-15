@@ -2,7 +2,7 @@
 
 package promotionservice
 
-import java.util.*
+import java.util.ArrayList
 
 class Item(
     val name: String,
