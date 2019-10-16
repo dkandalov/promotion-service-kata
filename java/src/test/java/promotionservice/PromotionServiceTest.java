@@ -20,8 +20,8 @@ class PromotionServiceTest {
             )
         );
         assertThat(messages, equalTo(Arrays.asList(
-            new UserMessage("Total before promotion: 12,0"),
-            new UserMessage("Total after promotion: 9,6")
+            new UserMessage("Total before promotion: 12.0"),
+            new UserMessage("Total after promotion: 9.6")
         )));
     }
 
@@ -35,8 +35,8 @@ class PromotionServiceTest {
             )
         );
         assertThat(messages, equalTo(Arrays.asList(
-            new UserMessage("Total before promotion: 252,0"),
-            new UserMessage("Total after promotion: 228,8")
+            new UserMessage("Total before promotion: 252.0"),
+            new UserMessage("Total after promotion: 228.8")
         )));
     }
 }

@@ -19,7 +19,7 @@ public class PromotionService {
 
     public List<UserMessage> applyPromotionTo(Item item) {
         List<UserMessage> result = new ArrayList<>();
-        result.add(new UserMessage(String.format("Total before promotion: %.1f", item.price + item.price * item.tax)));
+        result.add(new UserMessage("Total before promotion: " + (item.price + item.price * item.tax)));
 
         item.price -= standardDiscount();
         if (item.price > 122) {
@@ -28,7 +28,7 @@ public class PromotionService {
 
         persist(item);
 
-        result.add(new UserMessage(String.format("Total after promotion: %.1f", item.price + item.price * item.tax)));
+        result.add(new UserMessage("Total after promotion: " + (item.price + item.price * item.tax)));
         return result;
     }
 
