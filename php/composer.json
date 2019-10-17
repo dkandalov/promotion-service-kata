@@ -1,0 +1,17 @@
+{
+    "name": "codecop/promotion-service",
+    "autoload": {
+        "psr-4": {
+            "PromotionService\\": "src\/PromotionService\/"
+        }
+    },
+	"autoload-dev": {
+		"files": ["vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php"]
+	},
+    "require": {
+    },
+    "require-dev": {
+        "hamcrest/hamcrest-php": "1.2.*",
+        "phpunit/phpunit": "4.8.*"
+    }
+}
