@@ -1,4 +1,4 @@
-namespace Promotionservice
+namespace PromotionService
 {
 	public class UserMessage
 	{

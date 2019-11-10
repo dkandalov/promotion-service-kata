@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService", "PromotionService\PromotionService.csproj", "{C98F6F1A-95EC-4EEF-8A1C-155B387996D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionServiceTests", "PromotionServiceTests\PromotionServiceTests.csproj", "{09519FC9-6233-4EBA-9A21-92511D5E5339}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService.Tests", "PromotionService.Tests\PromotionService.Tests.csproj", "{09519FC9-6233-4EBA-9A21-92511D5E5339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

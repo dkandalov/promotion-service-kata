@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>PromotionServiceTests</AssemblyName>
-    <PackageId>>PromotionServiceTests</PackageId>
+    <AssemblyName>PromotionService.Tests</AssemblyName>
+    <PackageId>>PromotionService.Tests</PackageId>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Promotionservice
+namespace PromotionService
 {
 	public class Item
 	{

@@ -1,9 +1,8 @@
 using System.Collections.Generic;
-using Promotionservice;
 using NHamcrest;
 using NHamcrest.XUnit;
 
-namespace PromotionserviceTests
+namespace PromotionService.Tests
 {
 	public class PromotionServiceTest
 	{
